@@ -1,0 +1,59 @@
+.body {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    position: relative;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    color: rgb(223, 26, 26);
+    font-size: 20px;
+    text-align: center;
+    /* background: url("https://media.newstrack.in/uploads/entertainment/regional-cinema/May/01/big_thumb/ajith-kumar_5cc91b4e99db2.jpg"); */
+    background-size: cover;
+    line-height: 15vh;
+    border: 2px solid rgb(204, 157, 250);
+    margin-left: 20px;
+}
+
+.change {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    line-height: 15vh;
+    text-align: center;
+    /* background: url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/202307/vijay_padayatra_polical_entry-one_one.jpg?VersionId=t5dJm.NEgVrw81FSI15AAhvoZlHBg2_H"); */
+    background-size: cover;
+}
+
+.add {
+    margin: 1px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 120px;
+}
+
+.remove {
+    margin: 1px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+
+.toggle {
+    margin: 1px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+}
